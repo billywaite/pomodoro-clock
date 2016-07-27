@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #00A388;
+  font-family: 'Montserrat';
+}
+
+.title {
+  margin: 25px;
+  color: #FFFF9D;
+  font-size: 65px;
+}
+
+.timer {
+  color: #FFFF9D;
+  max-height: 400px;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 300px;
+}
+
+
+/**************************
+  Spans are buttons
+***************************/
+
+.timer span {
+  background: #FFFF9D;
+  color: #FF6138;
+  border-radius: 6px;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 12px 20px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .1);
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.timer span:hover {
+  color: #FFFF9D;
+  background: #FF6138;
+}
+
+#start {
+  color: #00A388;
+  border: 1px solid rgb(255, 255, 157);
+  border-bottom: 3px solid rgb(255, 255, 157);
+}
+
+#start:hover {
+  background: #00A388;
+  color: #FFFF9D;
+  border: 1px solid rgb(255, 255, 157);
+  border-bottom: 3px solid rgb(255, 255, 157);
+}
+
+#stop {
+  border: 1px solid rgb(255, 255, 157);
+  border-bottom: 3px solid rgb(255, 255, 157);
+}
+
+#stop:hover {
+  border: 1px solid #FF6138;
+  border-bottom: 3px solid #FF6138;
+}
+#reset {
+  border: 1px solid rgb(255, 255, 157);
+  border-bottom: 3px solid rgb(255, 255, 157);
+}
+#reset:hover {
+  border: 1px solid #FF6138;
+  border-bottom: 3px solid #FF6138;
+}
+.sessionLength {
+  width: 200px;
+  max-height: 200px;
+  float: right;
+}
+
+.sessionLength span {
+  border-radius: 25px;
+  border: 1px solid rgb(255, 255, 157);
+}
+
+.sessionLength span:hover {
+  border: 1px solid #FF6138;
+}
+
+#seshIncrease {
+  color: #00A388;
+}
+
+#seshIncrease:hover {
+  background: #00A388;
+  color: #FFFF9D;
+  border: 1px solid rgb(255, 255, 157);
+}
+
+#sessionDisplay {
+  margin-bottom: 25px;
+}
+
+.breakLength {
+  width: 200px;
+  float: left;
+}
+
+.breakLength span {
+  border-radius: 25px;
+  border: 1px solid rgb(255, 255, 157);
+}
+
+.breakLength span:hover {
+  border: 1px solid #FF6138;
+}
+
+#breakIncrease {
+  color: #00A388;
+}
+
+#breakIncrease:hover {
+  background: #00A388;
+  color: #FFFF9D;
+  border: 1px solid rgb(255, 255, 157);
+}
+
+#breakDisplay {
+  margin-bottom: 25px;
+}
+
+
+/**************************************
+       Main display in the middle
+***************************************/
+
+.display {
+  margin: 50px auto 15px;
+  padding: 55px;
+  color: white;
+  background-color: #FF6138;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .1);
+}
